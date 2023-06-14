@@ -1,0 +1,79 @@
+.logo {
+  width: 250px;
+  padding: 10px;
+}
+#info {
+  float: right;
+}
+body {
+  background: #f1f1f1;
+  font-family: "Encode Sans", sans-serif;
+}
+*.card-header {
+  padding: 20px;
+}
+.nav {
+  justify-content: center;
+}
+.header-direccionesg {
+  background-color: #fffde7;
+}
+.header-direccionesg:hover {
+  background-color: #fff9c4;
+}
+.header-direcciones {
+  background-color: #eeeeee;
+}
+.header-direcciones:hover {
+  background-color: #e0e0e0;
+}
+.header-jefatura {
+  background-color: #e0f2f1;
+}
+.header-jefatura:hover {
+  background-color: #b2dfdb;
+}
+.header-departamentos {
+  background-color: #f1f8e9;
+}
+.header-departamentos:hover {
+  background-color: #dcedc8;
+}
+.header-divisiones {
+  background-color: #ede7f6;
+}
+.header-divisiones:hover {
+  background-color: #d1c4e9;
+}
+.header-secciones {
+  background-color: #ffebee;
+}
+.header-secciones:hover {
+  background-color: #ffcdd2;
+}
+.content {
+  padding: 0rem;
+}
+.buttonconf {
+  float: right;
+}
+p {
+  flex-grow: 1;
+}
+.modal-header {
+  background-color: #b2dfdb;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tit {
+  display: flex;
+  justify-content: center;
+}
+.centrado {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.fa-file-pdf{
+color: red;
+}

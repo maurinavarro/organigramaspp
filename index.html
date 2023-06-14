@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Organica</title>
+    <!-- CSS only -->
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      rel="stylesheet"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb59b0b1b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/eb59b0b1b8.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <!--Barra de navegaciòn primaria
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark"
+        style="background-color: #1e2830"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img alt="" class="logo" src="images/logoo.png" />
+          </a>
+          Buscador
+          <form class="d-flex" role="search">
+            <input
+              aria-label="Search"
+              class="form-control me-2"
+              placeholder="Buscar"
+              type="search"
+            />
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    Barra Secundaria
+    <nav
+      class="navbar navbar-expand-lg bg-secondary navbar-dark justify-content-end"
+    >
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Estructura </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Directorio </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Normativas </a>
+        </li>
+      </ul>
+    </nav>-->
+    <div class="mt-5 navbar navbar-expand-lg navbar-dark justify-content-center">
+      <ul class="navbar-nav">
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" id="jefatura" onclick="jefatura()">
+            JEFATURA
+          </button>
+        </li>
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" onclick="direcciones_generales()">
+            DIRECCIONES GENERALES
+          </button>
+        </li>
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" onclick="direcciones()">
+            DIRECCIONES
+          </button>
+        </li>
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" onclick="departamentos()">
+            DEPARTAMENTOS
+          </button>
+        </li>
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" onclick="divisiones()">DIVISIONES</button>
+        </li>
+        <li class="nav-item mx-2">
+          <button class="btn btn-sm" onclick="secciones()">SECCIONES</button>
+        </li>
+        <li class="nav-item mx-2">
+          <a href="https://spp.chaco.gob.ar/wp-content/uploads/2023/06/DISPO-654-AMPLIACION-ORGANIGRAMA.pdf" target="_blank">
+          <button class="btn btn-sm">AMPLIACIÓN ORGÁNICA <i class="fa-regular fa-file-pdf"></i></button>
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a href="https://spp.chaco.gob.ar/wp-content/uploads/2023/06/L.2854.J-LEY-ORGANICA.pdf" target="_blank">
+          <button class="btn btn-sm">ORGÁNICA <i class="fa-regular fa-file-pdf"></i></button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div id="contenido"></div>
+    </div>
+
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
