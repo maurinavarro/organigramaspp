@@ -22,12 +22,7 @@ function departamentos() {
   $("#contenido").load("jerarquias/departamentos.html");
 }
 
-function divisiones(modal = '') {
-  var modal = modal;
-
-  if(this.modal.length > 0){
-    console.log('funciona');
-  }
+function divisiones() {
   $("#contenido").empty();
   $("#contenido").load("jerarquias/divisiones.html");
 }
